@@ -7,7 +7,7 @@ import requests
 import datetime
 import locale
 locale.setlocale(locale.LC_TIME, "fr_FR.UTF-8")
-token = {'Authorization': 'c37b9586-12f3-4cc3-8bd8-a2a01bda5a83'}
+token = {'Authorization': "clé de l'API SNCF"}
 
 nce_ville = 'stop_area:OCE:SA:87756056'		#Gare de Nice-Ville
 nce_aug = 'stop_area%3AOCE%3ASA%3A87756254' #Gare de Nice-St-Augustin
